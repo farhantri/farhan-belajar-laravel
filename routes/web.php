@@ -23,3 +23,10 @@ Route::post('kategori-produk/simpan','KategoriProdukController@simpan');
 Route::get('kategori-produk/ubah/{id}','KategoriProdukController@ubah');
 Route::put('kategori-produk/perbarui/{id}','KategoriProdukController@perbarui');
 Route::get('kategori-produk/hapus/{id}','KategoriProdukController@hapus');
+
+Route::get('produk','ProdukController@index');
+Route::get('produk/tambah','ProdukController@tambah');
+Route::post('produk/simpan','ProdukController@simpan');
+Route::get('produk/ubah/{id}','ProdukController@ubah');
+Route::put('produk/perbarui/{id}','ProdukController@perbarui');
+Route::get('produk/hapus/{id}','ProdukController@hapus');
